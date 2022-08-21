@@ -42,11 +42,11 @@
 		66EDAACE0C77F5B613E3A3D0 /* Pods-POD_SPM_lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POD_SPM_lib_Example.release.xcconfig"; path = "Target Support Files/Pods-POD_SPM_lib_Example/Pods-POD_SPM_lib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		747B5179515D12E7BB8078B4 /* Pods-POD_SPM_lib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POD_SPM_lib_Example.debug.xcconfig"; path = "Target Support Files/Pods-POD_SPM_lib_Example/Pods-POD_SPM_lib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		795DF1515986FE628D96B7D2 /* Pods-POD_SPM_lib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POD_SPM_lib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-POD_SPM_lib_Tests/Pods-POD_SPM_lib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8B97F44AE51F4B5A315CC19B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B7E79B3478E32452F690EE5A /* POD_SPM_lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = POD_SPM_lib.podspec; path = ../POD_SPM_lib.podspec; sourceTree = "<group>"; };
+		8B97F44AE51F4B5A315CC19B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B7E79B3478E32452F690EE5A /* POD_SPM_lib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = POD_SPM_lib.podspec; path = ../POD_SPM_lib.podspec; sourceTree = "<group>"; };
 		BDEBF910BCAC19E6DF6B9400 /* Pods-POD_SPM_lib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POD_SPM_lib_Tests.release.xcconfig"; path = "Target Support Files/Pods-POD_SPM_lib_Tests/Pods-POD_SPM_lib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F6ACB8756AB1ADB3E3763819 /* Pods_POD_SPM_lib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POD_SPM_lib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD1D1876A8FC8C9D86DAAD5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD1D1876A8FC8C9D86DAAD5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				795DF1515986FE628D96B7D2 /* Pods-POD_SPM_lib_Tests.debug.xcconfig */,
 				BDEBF910BCAC19E6DF6B9400 /* Pods-POD_SPM_lib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z76K2Q3HH9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z76K2Q3HH9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,7 +499,9 @@
 			baseConfigurationReference = 747B5179515D12E7BB8078B4 /* Pods-POD_SPM_lib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z76K2Q3HH9;
 				INFOPLIST_FILE = POD_SPM_lib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +516,9 @@
 			baseConfigurationReference = 66EDAACE0C77F5B613E3A3D0 /* Pods-POD_SPM_lib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z76K2Q3HH9;
 				INFOPLIST_FILE = POD_SPM_lib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +532,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 795DF1515986FE628D96B7D2 /* Pods-POD_SPM_lib_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = Z76K2Q3HH9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +556,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BDEBF910BCAC19E6DF6B9400 /* Pods-POD_SPM_lib_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DEVELOPMENT_TEAM = Z76K2Q3HH9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
