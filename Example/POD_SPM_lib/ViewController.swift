@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let _ = DateTime(timeStamp: 1000000)
+        let _ = DateTime(timeStamp: 1_000_000)
 
     }
 

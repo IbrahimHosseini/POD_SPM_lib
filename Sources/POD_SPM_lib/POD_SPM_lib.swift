@@ -1,7 +1,7 @@
 public class DateTime {
-    public let timeStamp: Int
+    private let timeStamp: Int
 
-    public init( timeStamp: Int) {
+    public init(timeStamp: Int) {
         self.timeStamp = timeStamp
         printTime()
     }
