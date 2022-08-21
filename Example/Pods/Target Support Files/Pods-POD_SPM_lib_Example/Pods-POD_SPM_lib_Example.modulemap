@@ -1,0 +1,6 @@
+framework module Pods_POD_SPM_lib_Example {
+  umbrella header "Pods-POD_SPM_lib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module POD_SPM_lib {
+  umbrella header "POD_SPM_lib-umbrella.h"
+
+  export *
+  module * { export * }
+}
