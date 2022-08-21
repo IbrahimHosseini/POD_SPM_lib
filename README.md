@@ -39,7 +39,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let _ = DateTime(timeStamp: 100_000_000)
+        let unixTime = DateTime(timestamp: 1_342_543_543)
+        
+        print("Time-> ", unixTime.getTime(), "Date-> ", unixTime.getDate())
     }
 }
 

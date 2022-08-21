@@ -14,9 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let unixTime = DateTime(timeStamp: 1_661_084_661)
-        print("Time is ->", unixTime.getDate(),
-              "Date is -> ", unixTime.getTime())
+        let unixTime = DateTime(timestamp: 1_342_543_543)
+        print("Time-> ", unixTime.getTime(), "Date-> ", unixTime.getDate())
     }
 
     override func didReceiveMemoryWarning() {
